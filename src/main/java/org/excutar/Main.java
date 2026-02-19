@@ -17,7 +17,7 @@ public class Main extends Application {
 
             if (arquivoFXML == null) {
                 // Tentativa secundária caso o arquivo esteja na raiz de resources
-                arquivoFXML = getClass().getResource("/Tela.fxml");
+                arquivoFXML = getClass().getResource("/View/Tela.fxml");
             }
 
             FXMLLoader loader = new FXMLLoader(arquivoFXML);
